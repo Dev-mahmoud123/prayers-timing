@@ -8,6 +8,11 @@ import "moment/locale/ar-dz";
 import TopRowComponent from "./TopRowComponent";
 import SelectedCity from "./SelectedCity";
 import SelectedCountry from "./SelectedCountry";
+import fajrImage  from "../assets/fajr-prayer.png";
+import dhuhrImage  from "../assets/dhhr-prayer-mosque.png";
+import asrImage  from "../assets/asr-prayer-mosque.png";
+import maghribImage  from "../assets/sunset-prayer-mosque.png";
+import ishaImage  from "../assets/night-prayer-mosque.png";
 moment.locale("ar");
 
 export default function MainContent() {
@@ -107,7 +112,6 @@ export default function MainContent() {
     }
   }, [city.apiName, country.apiName]);
 
-
   useEffect(() => {
     handleData();
   }, [city, handleData]);
@@ -121,7 +125,7 @@ export default function MainContent() {
     setRemainingTime(getCurrentRemainingTime());
 
     const remainingTimeInterval = setInterval(() => {
-      setRemainingTime(getCurrentRemainingTime()); 
+      setRemainingTime(getCurrentRemainingTime());
     }, 1000);
 
     return () => clearInterval(remainingTimeInterval);
@@ -146,27 +150,27 @@ export default function MainContent() {
         style={{ marginTop: "50px", width: "90vw" }}
       >
         <PrayerCard
-          prayerImage="/src/assets/fajr-prayer.png"
+          prayerImage={fajrImage}
           prayerName="الفجر"
           prayerTime={timings?.Fajr}
         />
         <PrayerCard
-          prayerImage="/src/assets/dhhr-prayer-mosque.png"
+          prayerImage={dhuhrImage}
           prayerName="الظهر"
           prayerTime={timings?.Dhuhr}
         />
         <PrayerCard
-          prayerImage="/src/assets/asr-prayer-mosque.png"
+          prayerImage={asrImage}
           prayerName="العصر"
           prayerTime={timings?.Asr}
         />
         <PrayerCard
-          prayerImage="/src/assets/sunset-prayer-mosque.png"
+          prayerImage={maghribImage}
           prayerName="المغرب"
           prayerTime={timings?.Maghrib}
         />
         <PrayerCard
-          prayerImage="/src/assets/night-prayer-mosque.png"
+          prayerImage={ishaImage}
           prayerName="العشاء"
           prayerTime={timings?.Isha}
         />
