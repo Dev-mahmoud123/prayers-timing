@@ -54,7 +54,7 @@ In order to use the Prayer Timings API, you need to obtain an API key. Here's ho
 
  ## Usage
 
-To run the project, use the following command:
+To run the project, use the following command:<br>
 
  npm start 
 
