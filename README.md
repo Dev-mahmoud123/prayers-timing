@@ -32,13 +32,16 @@ Before you begin, ensure you have met the following requirements:
 
 To get started with this project, follow these steps:
 
-   1- Clone this repository to your local machine:
+   1- Clone this repository to your local machine:<br>
+
       ```sh git clone https://github.com/Dev-mahmoud123/prayers-timing.git ```
 
-   2- Navigate to the project directory:
+   2- Navigate to the project directory:<br>
+
        ```sh cd prayers-timing ```
 
-   3- Install the required dependencies:    
+   3- Install the required dependencies:<br>  
+     
      ```sh  npm install ```
 
 ## Configuration
