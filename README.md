@@ -47,3 +47,10 @@ In order to use the Prayer Timings API, you need to obtain an API key. Here's ho
 
 - Sign up for an API key at
  [Prayer Timings API](http://api.aladhan.com/v1/timingsByCity?city=Cairo&country=Egypt) 
+
+
+ ## Usage
+
+To run the project, use the following command:
+
+```sh npm start ```
