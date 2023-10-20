@@ -42,7 +42,7 @@ To get started with this project, follow these steps:
 
    3- Install the required dependencies:<br>  
 
-     `npm install `
+     npm install
 
 ## Configuration
 
