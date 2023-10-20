@@ -64,11 +64,11 @@ This will start the development server and open the application in your default 
 
 If you would like to contribute to this project, please follow the typical GitHub workflow:
 
-   1- Fork the repository.
-   2- Create a new branch for your feature or bug fix.
-   3- Make your changes and commit them.
-   4- Push your changes to your fork.
-   5- Create a pull request to the main repository.
+   1- Fork the repository.<br>
+   2- Create a new branch for your feature or bug fix.<br>
+   3- Make your changes and commit them.<br>
+   4- Push your changes to your fork.<br>
+   5- Create a pull request to the main repository.<br>
 
    Please ensure that your code follows best practices, and provide clear documentation for any new features or changes.
 
