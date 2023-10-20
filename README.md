@@ -34,11 +34,11 @@ To get started with this project, follow these steps:
 
    1- Clone this repository to your local machine:<br>
 
-      ```sh git clone https://github.com/Dev-mahmoud123/prayers-timing.git ```
+       git clone https://github.com/Dev-mahmoud123/prayers-timing.git 
 
    2- Navigate to the project directory:<br>
 
-       ```sh cd prayers-timing ```
+       cd prayers-timing 
 
    3- Install the required dependencies:<br>  
 
@@ -56,7 +56,7 @@ In order to use the Prayer Timings API, you need to obtain an API key. Here's ho
 
 To run the project, use the following command:
 
-```sh npm start ```
+ npm start 
 
 This will start the development server and open the application in your default web browser. You can then select your city and view the prayer timings
 
