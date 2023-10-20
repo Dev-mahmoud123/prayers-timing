@@ -38,13 +38,11 @@ To get started with this project, follow these steps:
 
    2- Navigate to the project directory:<br>
 
-       ```sh 
-       cd prayers-timing
-        ```
+       ```sh cd prayers-timing ```
 
    3- Install the required dependencies:<br>  
 
-     `shell  npm install `
+     `npm install `
 
 ## Configuration
 
