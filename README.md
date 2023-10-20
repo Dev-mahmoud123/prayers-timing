@@ -56,7 +56,7 @@ In order to use the Prayer Timings API, you need to obtain an API key. Here's ho
 
 To run the project, use the following command:<br>
 
- npm start 
+      npm start 
 
 This will start the development server and open the application in your default web browser. You can then select your city and view the prayer timings
 
